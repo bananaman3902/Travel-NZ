@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    width:100vw;
+}
+header{
+    position: fixed;
+    top:0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    font-size: 4rem;
+}
+main{
+    display:grid;
+    background-color: white;
+    width: 100%;
+    margin:75px;
+}
+.images{
+    grid-row: 1;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.tour{
+    text-align: center;
+    font-size: 4rem;
+    margin:10px 2vw;
+}
+.tourImg{
+    width:500px
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 2px 5px;
+}
